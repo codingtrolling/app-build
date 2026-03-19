@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0D0D"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODINGTROLLING HUB"
+        android:textColor="#00FFFF"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button android:id="@+id/btn_link" android:layout_width="match_parent" android:layout_height="60dp"
+        android:text="ANDROID LINK" android:backgroundTint="#00FFFF" android:textColor="#000000" android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btn_ai" android:layout_width="match_parent" android:layout_height="60dp"
+        android:text="BOZIN AI" android:backgroundTint="#00FFFF" android:textColor="#000000" android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btn_vm" android:layout_width="match_parent" android:layout_height="60dp"
+        android:text="VM MATRIX" android:backgroundTint="#00FFFF" android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_console"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#1A1A1A"
+        android:padding="10dp"
+        android:text="CORE READY..."
+        android:textColor="#00FF00"
+        android:fontFamily="monospace" />
+</LinearLayout>
